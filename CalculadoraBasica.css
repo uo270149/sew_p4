@@ -24,7 +24,7 @@ input[type=text] {
     border-radius: 0.25em;
     text-align: left;
     color: black;
-    background-color: gainsboro;
+    background-color: whitesmoke;
     overflow-x: scroll;
 }
 
