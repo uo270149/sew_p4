@@ -228,8 +228,8 @@
     }
 
     echo "<form action='#' method='post' name='Calculadora'>
-            <input type='text' id='pila' name='stack' value='$calculadoraRPN->stackValues' readonly/>
-            <input type='text' id='result' name='expresion' value='$calculadoraRPN->console' readonly/>
+            <input type='text' id='pila' title='pila' name='stack' value='$calculadoraRPN->stackValues' readonly/>
+            <input type='text' id='result' title='result' name='expresion' value='$calculadoraRPN->console' readonly/>
             <input type='submit' class='button' name='sin' value='sin'/>
 			<input type='submit' class='button' name='cos' value='cos'/>
 			<input type='submit' class='button' name='tan' value='tan'/>
