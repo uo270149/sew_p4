@@ -35,7 +35,7 @@ input[type=text] {
 /* input[type=button], */
 
 input[type=submit] {
-    background-color: grey;
+    background-color: black;
     color: white;
     margin: 0.25em 0.125em;
     border: none;
