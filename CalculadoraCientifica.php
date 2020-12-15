@@ -183,7 +183,7 @@
 
     // $_POST is a PHP super global variable which is used to collect form data after submitting an HTML form with method="post".
     echo "<form action='#' method='post' name='CalculadoraCientifica'>
-            <input type='text' id='result' name='expr' value='$calculadoraCientifica->console' readonly />
+            <input type='text' id='result' title='result' name='expr' value='$calculadoraCientifica->console' readonly />
 
             <input type='submit' class='button' name='mrc' value='mrc'/>
             <input type='submit' class='button' name='mMenos' value='m-'/>
