@@ -1,0 +1,57 @@
+/* especificidad=1 */
+
+body {
+    background-color: burlywood;
+}
+
+
+/* especificidad=1 */
+
+h1 {
+    text-align: left;
+    color: black;
+}
+
+
+/* especificidad=11 */
+
+input[type=text] {
+    width: 70%;
+    padding: 1em 2em;
+    font-size: 1em;
+    margin: 0.5em 0;
+    border: 0.063 solid whitesmoke;
+    border-radius: 0.25em;
+    text-align: left;
+    color: black;
+    background-color: gainsboro;
+    overflow-x: scroll;
+}
+
+
+/* especificidad=11 */
+
+
+/* input[type=button], */
+
+input[type=submit] {
+    background-color: grey;
+    color: white;
+    margin: 0.25em 0.125em;
+    border: none;
+    padding: 0.5em 0.75em;
+    font-size: 1em;
+    min-width: 20%;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* especificidad=21 */
+
+
+/* input[type=button]:hover, */
+
+input[type=submit]:hover {
+    background-color: black;
+}
