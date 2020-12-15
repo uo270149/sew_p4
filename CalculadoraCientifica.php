@@ -143,41 +143,41 @@
         } else if (isset($_POST['pi'])) {
             $calculadoraCientifica->addDataToConsole(M_PI);
         } else if (isset($_POST['7'])) {
-            $calculadoraBasica->addDataToConsole("7");
+            $calculadoraCientifica->addDataToConsole("7");
         } else if (isset($_POST['8'])) {
-            $calculadoraBasica->addDataToConsole("8");
+            $calculadoraCientifica->addDataToConsole("8");
         } else if (isset($_POST['9'])) {
-            $calculadoraBasica->addDataToConsole("9");
+            $calculadoraCientifica->addDataToConsole("9");
         } else if (isset($_POST['multiplicacion'])) {
-            $calculadoraBasica->addDataToConsole("*");
+            $calculadoraCientifica->addDataToConsole("*");
         } else if (isset($_POST['factorial'])) {
-            $calculadoraBasica->factorial();
+            $calculadoraCientifica->factorial();
         } else if (isset($_POST['4'])) {
-            $calculadoraBasica->addDataToConsole("4");
+            $calculadoraCientifica->addDataToConsole("4");
         } else if (isset($_POST['5'])) {
-            $calculadoraBasica->addDataToConsole("5");
+            $calculadoraCientifica->addDataToConsole("5");
         } else if (isset($_POST['6'])) {
-            $calculadoraBasica->addDataToConsole("6");
+            $calculadoraCientifica->addDataToConsole("6");
         } else if (isset($_POST['resta'])) {
-            $calculadoraBasica->addDataToConsole("-");
+            $calculadoraCientifica->addDataToConsole("-");
         } else if (isset($_POST['1'])) {
-            $calculadoraBasica->addDataToConsole("1");
+            $calculadoraCientifica->addDataToConsole("1");
         } else if (isset($_POST['2'])) {
-            $calculadoraBasica->addDataToConsole("2");
+            $calculadoraCientifica->addDataToConsole("2");
         } else if (isset($_POST['3'])) {
-            $calculadoraBasica->addDataToConsole("3");
+            $calculadoraCientifica->addDataToConsole("3");
         } else if (isset($_POST['suma'])) {
-            $calculadoraBasica->addDataToConsole("+");
+            $calculadoraCientifica->addDataToConsole("+");
         } else if (isset($_POST['parentesisIz'])) {
-            $calculadoraBasica->addDataToConsole("(");
+            $calculadoraCientifica->addDataToConsole("(");
         } else if (isset($_POST['parentesisDer'])) {
-            $calculadoraBasica->addDataToConsole(")");
+            $calculadoraCientifica->addDataToConsole(")");
         } else if (isset($_POST['0'])) {
-            $calculadoraBasica->addDataToConsole("0");
+            $calculadoraCientifica->addDataToConsole("0");
         } else if (isset($_POST['punto'])) {
-            $calculadoraBasica->addDataToConsole(".");
+            $calculadoraCientifica->addDataToConsole(".");
         } else if (isset($_POST['igual'])) {
-            $calculadoraBasica->compute();
+            $calculadoraCientifica->compute();
         }
     }
 
